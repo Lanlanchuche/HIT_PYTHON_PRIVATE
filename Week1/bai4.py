@@ -1,0 +1,8 @@
+name = input("Enter name: ")
+age = int(input("Enter age:"))
+gender = input("Enter gender: ")
+marriage = input("Enter status of marriage: ")
+print("Name: " + name)
+print("Age: " , age)
+print("Gender: " + gender)
+print("Marriage: "+ marriage)
