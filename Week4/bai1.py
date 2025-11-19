@@ -1,4 +1,3 @@
-
 marks = {"An": 8.5, "Bình": 7.2, "Chi": 9.0, "Dũng": 6.8, "Hà": 8.0}
 
 while True:
@@ -14,7 +13,7 @@ while True:
         break
     if choice == 1:
         for name, score in marks.items():
-            print(name ,":", score)
+            print(name, ":", score)
     if choice == 2:
         maxscore = 0
         minscore = 10
@@ -36,7 +35,7 @@ while True:
         for score in marks.values():
             total += score
             count += 1
-        print("Diem trung binh cua ca lop la: ", total/count)
+        print("Diem trung binh cua ca lop la: ", total / count)
 
     if choice == 4:
         new = {}
@@ -47,6 +46,6 @@ while True:
                 new[name] = "Kha"
             if score < 6.5:
                 new[name] = "Trung binh"
-        #in dsach moi
+        # in dsach moi
         for name, grade in new.item():
             print(name, ":", grade)

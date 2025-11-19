@@ -5,3 +5,5 @@ for i in chuoi:
     chuoi2[i] = chuoi.count(i)
 for char, count in chuoi2.items():
     print(f"Chu {char} xuat hien {count} lan")
+print(chuoi2)
+
