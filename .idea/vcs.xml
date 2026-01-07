@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/100_bai_tap_pandas" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenCV" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_opencv" vcs="Git" />
   </component>
 </project>
